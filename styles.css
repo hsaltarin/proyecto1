@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', Sans-serif;
+    font-style: bold;
+    
+}
+body{
+    height: 100hv;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+header .div-izq h1{
+    color: #252525;
+}
+header .div-izq h1 span{
+    color: #5f9ea0;
+}
+header .div-der nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #252525;
+    transition: .3s;
+}
+a:hover{
+   color: #5f9ea0;
+}
+
+main .div-info .text-container h2 span {
+    color: #5f9ea0;
+}
+
+main{
+    height: 80%;
+    display: flex;
+    padding: 0px 110px;
+    justify-content: center;
+    align-items: center;
+
+}
+main .div-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main .div-info .text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+main .div-image picture img{
+    width: 600px;
+
+}
+main .div-info .btn-container button{
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:transparent;
+    cursor: pointer;
+}
+main .div-info .btn-container #contact{
+    background-color: #5f9ea0;
+    cursor: pointer;
+}
+main .div-info .btn-container #contact:hover{
+    opacity: .9;
+}
